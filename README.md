@@ -1,6 +1,3 @@
-# Justin Wong
-*Data Analyst at Riviera Partners*
-
 # [Project 1: Divvy Riders](https://docs.google.com/presentation/d/1wVIRzfdNh8o5qtGf2CjmLr1SUm-BJoB4uySB8tu-DZc/edit?usp=sharing)
 
 This is a capstone project as part of [Google Analytics Professional Ceritification](https://www.coursera.org/professional-certificates/google-data-analytics)
