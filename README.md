@@ -1,6 +1,9 @@
 # [Divvy Riders](https://docs.google.com/presentation/d/1wVIRzfdNh8o5qtGf2CjmLr1SUm-BJoB4uySB8tu-DZc/edit?usp=sharing)
 
 This is a capstone project as part of [Google Analytics Professional Ceritification](https://www.coursera.org/professional-certificates/google-data-analytics)
+
+Intent of the capstone project is to utilize all the skillset learned from the course and apply. Business question here is to find out the difference between Casual riders and Members, how would the difference enable executives to make insight-driven decisions to increase conversions.
+
 * BigQuery / SQL used to aggregate 12 months trip data totaling to 5.8M rows into digestable data viz
 * Applied ASK, PREPARE, PROCESS, ANALYZE, SHARE, and ACT turning an abstract dataset into insights
 * **Conclusion from the analysis as of Jun 21, 2022**
@@ -8,6 +11,9 @@ To increase conversion from casual riders to annual members, Divvy should add th
   * Ride gamificiation to increase frequency of riders in the weekdays
   * Discounted rates for longer rides to entice casual riders who ride an average of 28 minutes versus 13 minutes of current annual members
   * Promotional credit for E-bikes as casual rider have higher interest in riding on electric bikes versus annual members
+
+
+
 
 # [Journey in Type 2 Diabetic](https://public.tableau.com/app/profile/justincpwong/viz/GlucoseDiary/GlucoseLog)
 
