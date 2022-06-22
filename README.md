@@ -9,10 +9,8 @@ To increase conversion from casual riders to annual members, Divvy should add th
   * Discounted rates for longer rides to entice casual riders who ride an average of 28 minutes versus 13 minutes of current annual members
   * Promotional credit for E-bikes as casual rider have higher interest in riding on electric bikes versus annual members
 
+# [Journey in Type 2 Diabetic](https://public.tableau.com/app/profile/justincpwong/viz/GlucoseDiary/GlucoseLog)
 
-- 📫 How to reach me https://www.linkedin.com/in/justincpwong
+This is a personal log of my average glucose level and combatting Type 2 Diabetic by strict dieting (zero carb) and daily exercise. Data log is done by pricking my finger twice a day to a snapshot of my blood glucose, once in the morning and another at night. The data points are entered through Google Forms and stored in Google Sheets. The dataset in Google Sheet is then fetched by Tableau Public to create the data viz.
 
-<!---
-JustinCPwong/JustinCPwong is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+- 📫 How to reach me [LinkedIn](https://www.linkedin.com/in/justincpwong)
