@@ -147,7 +147,7 @@ WITH Formatted_Divvy_Table AS
 	EXTRACT(YEAR FROM started_at) AS year,
 	EXTRACT(DAYOFWEEK FROM started_at) AS day_num_of_week,
 	CASE 
-	WHEN EXTRACT(DAYOFWEEK FROM started_at) = 1 THEN 'Sunday'
+	WHEN EXTRACT(DAYOFWEEK FROM started_at) = 1 THEN 'Sun'
 	WHEN EXTRACT(DAYOFWEEK FROM started_at) = 2 THEN 'Mon'
 	WHEN EXTRACT(DAYOFWEEK FROM started_at) = 3 THEN 'Tue'
 	WHEN EXTRACT(DAYOFWEEK FROM started_at) = 4 THEN 'Wed'
