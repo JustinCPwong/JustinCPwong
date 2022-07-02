@@ -13,7 +13,25 @@
 			<div id="page-wrapper">
 
 				<!-- Header -->
-					
+				<header id="header" class="alt">
+					<h1><a href="index.html">Justin Wong</a></h1>
+					<nav id="nav">
+						<ul>
+							<li class="special">
+								<a href="#menu" class="menuToggle"></a>
+								<div id="menu">
+									<ul>
+										<li><a href="index.html">Home</a></li>
+										<li><a href="Project_1.html">Project 1: Glucose Log</a></li>
+										<li><a href="Project_2.html">Project 2: Divvy Analysis</a></li>
+										<li><a href="#About_Me">About Me</a></li>
+										<li><a href="#Connect">Let's Connect!</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</header>
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
@@ -33,8 +51,7 @@
 								
 								<h2>specialized in<br />
 								SQL, Excel and Tableau</h2>
-								<p>Something something<br />
-								Below are some of the work I have done<br />
+								<p>Something something<br /></p><br />
 								
 							</header>
 							<ul class="icons major">
@@ -42,140 +59,37 @@
 								<li><span class="icon solid fa-file-excel major style2"><span class="label">Ipsum</span></span></li>
 								<li><span class="icon solid fa-chart-line major style3"><span class="label">Dolor</span></span></li>
 							</ul>
+							<p>I have three years hands on experience in the analytical space, cycling between multiple tools. I learned on the fly and was tasked to hunt down answers to business questions, solving real world business needs from stakeholders. I've always enjoyed diving into trove of data so uncovering the story where ever it leads me and having an intermate relationship with it, that itself is a very enjoyable expereince for me.</p>
+							<p>But like anything - eventually I will have to resurface and focus on the real ask.</p>
+							<p>Below are a few projects I have worked on and have continued to refine.</p> 
 						</div>
 					</section>
 
 				<!-- Two -->
 					<section id="two" class="wrapper alt style2">
 						<section class="spotlight">
-							
-										<div class="content">
+							<div class="image"><a href="Project_1.html"><img src="images/GlucloseLog.png" alt="" /><sup>Click for the interactive version.</sup></a>  </div><div class="content">
 								<h1> PROJECT 1</h1>
 								<h2>Recording my Journey as <br />Type 2 Diabetic</h2>
 								<p>This is a personal log of my average glucose level and combating Type 2 Diabetic by strict dieting (zero carb) and daily exercise. <br />
-									Data log is done by pricking my finger twice a day to a snapshot of my blood glucose, once in the morning and another at night. The data points are entered through Google Forms and stored in Google Sheets. The dataset in Google Sheet is then fetched by Tableau Public to create the data viz. <br /><br>This chart is <u>INTERACTIVE!</u> Try it with your mouse or finger! </p>
+								By utilizing Google Forms to input different points of data entry, store it in Google Sheets and then feed to to Tableau, I'm able to create a live data viz of my health and keep tabs on it at all times.</p>
+								<a href="Project_1.html">Behind the scene on the process of the making this data viz!</a>
 							</div>
-							<div class='tableauPlaceholder' id='viz1656572613919' style='position: relative'><noscript><a href='#'><img alt='Glucose Log ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gl&#47;GlucoseDiary&#47;GlucoseLog&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='GlucoseDiary&#47;GlucoseLog' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gl&#47;GlucoseDiary&#47;GlucoseLog&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1656572613919');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='960px';vizElement.style.height='569px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='500';vizElement.style.height='250px';} else { vizElement.style.width='960px';vizElement.style.height='569px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-						
 						</section>
-						<hr/>
-					</section>
-				
+						<br><br/>
 						<section class="spotlight">
-															<div class="content">
+							<div class="image"><a href="Project_2.html"><img src="images/DivvyAnalysis.png" alt="" /><sup>Click for the slidedeck.</sup></a></div><div class="content">
 								<h1>PROJECT 2</h1>
-								<h2>Analysis on <a href="https://divvybikes.com/">Divvy the bike sharing company</a><br/></h2>
-								<p>A <a href="https://www.coursera.org/professional-certificates/google-data-analytics">Google Data Analytics Professional Certificate</a> capstone project</a></p>
+								<h2>Analysis on <a href="https://divvybikes.com/">Divvy</a> the bike sharing company</h2>
+								<sub>A <a href="https://www.coursera.org/professional-certificates/google-data-analytics">Google Data Analytics Professional Certificate</a> capstone project</sub></p>
 								<sub>Utilized SQL/PgAdmin to aggregate 12 months trip data that totals to 5,800,000 rows(!) into an accessible pivot table to create digestable dataviz!</sub>
 								</div>
-								<div class="image" white-space:normal><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQC_hVW_SrAwtmqzw7Tll-eCXB1ZE9B-ajAmQzp80nSOIbE4Qo0MqXqjxbV-RvSpJMOvTUXPdOEq3Ao/embed?start=false&loop=false&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
-						</section>
-							<section class="spotlight">
-							<div class="content">
-								<h3>The Data Cleaning Process</h3>
 								
-								<h4>(1) Data Integrity</h4>
-								<sub>The first step of the data cleaning process is identifying if there are any <b>errors</b> within the dataset.
-									For example, in this particular dataset, the start time (start_at) and end time (ended_at)
-									per transaction had some unusual difference where the end time of a bike ride was less than the start
-									time of a bike ride. Without a quick way to ask clarifying questions given it is a public dataset, I
-									resorted to filter out results with negative duration so it doesn't skew the results.
-									</sub>
-								<br>
-								<br />
 						</section>
-						<sub text-indent: 10%>Here's what I did:<br><br/></sub>
-								<section> 
-								<pre><code>
---- snippet from part of the query
-FROM (
-SELECT *, 
-	DATE_DIFF(ended_at,started_at,SECOND) AS Duration_Seconds FROM Bike_Divvy.Divvy_Current)
-WHERE 
-    Duration_Seconds >= 0;
-	)
-<p style ="color:gold;">This subquery filters out durations less than 0, now we can proceed to make the output more usable.</p>
-								</code></pre>
-								</section>
 							
-								<section id="two" class="wrapper alt style2">
-									<section class="spotlight">
-										<div style='position: relative'>
-													<div class="content">
-											
-											<h4>(2) Data Transformation</h4>
-											<sub>
-												The second step of the data clean process is transformating the table for easier aggregation.
-												For this particular dataset, we are interested in the days of week riders more frequently ride.
-												Therefore we will use the start time (start_at) column and extract the specific day of week for further
-												analysis.
-											</sub>
-										</div>
-									</section>
-									
-									<br />
-									<sub>Making the dataset more useful:<br><br/></sub>
-									<section> 
-									
-									<pre><code>
---- snippet from part of the query
-CASE 
-	WHEN EXTRACT(DAYOFWEEK FROM started_at) = 1 THEN 'Sun'
-	WHEN EXTRACT(DAYOFWEEK FROM started_at) = 2 THEN 'Mon'
-	WHEN EXTRACT(DAYOFWEEK FROM started_at) = 3 THEN 'Tue'
-	WHEN EXTRACT(DAYOFWEEK FROM started_at) = 4 THEN 'Wed'
-	WHEN EXTRACT(DAYOFWEEK FROM started_at) = 5 THEN 'Thu'
-	WHEN EXTRACT(DAYOFWEEK FROM started_at) = 6 THEN 'Fri'
-	WHEN EXTRACT(DAYOFWEEK FROM started_at) = 7 THEN 'Sat'
-END AS day_of_week
-
-<p style ="color:gold;">By using combinatino of CASE() and EXTRACT() function we are able to convert the start time of a bike ride (start_at) 
-to day of week</p>
-									</code></pre>
-									</section>
-									<section id="two" class="wrapper alt style2">
-										<section class="spotlight">
-											<div style='position: relative'>
-														<div class="content">
-												
-												<h4>(3) Magic of CTE</h4>
-												<sub>
-													The final step of the data cleaning process is converting this cleaned up, and transformed
-													output into a CTE (virtual table) so it can be stringed with other necessary columns as well as 
-													referenced for multiple uses and analysis!
-												</sub>
-											</div>
-										</section>
-										<section>
-										<br> 
-										<sub>Full CTE:<br><br/></sub>
-											<pre><code>
-WITH Formatted_Divvy_Table AS 
-(SELECT 
-	*,
-	(DATE_DIFF(ended_at,started_at,SECOND))/60 AS Duration_Minutes,
-	EXTRACT(MONTH FROM started_at) AS month,
-	EXTRACT(YEAR FROM started_at) AS year,
-	EXTRACT(DAYOFWEEK FROM started_at) AS day_num_of_week,
-	CASE 
-	WHEN EXTRACT(DAYOFWEEK FROM started_at) = 1 THEN 'Sun'
-	WHEN EXTRACT(DAYOFWEEK FROM started_at) = 2 THEN 'Mon'
-	WHEN EXTRACT(DAYOFWEEK FROM started_at) = 3 THEN 'Tue'
-	WHEN EXTRACT(DAYOFWEEK FROM started_at) = 4 THEN 'Wed'
-	WHEN EXTRACT(DAYOFWEEK FROM started_at) = 5 THEN 'Thu'
-	WHEN EXTRACT(DAYOFWEEK FROM started_at) = 6 THEN 'Fri'
-	WHEN EXTRACT(DAYOFWEEK FROM started_at) = 7 THEN 'Sat'
-	END AS day_of_week
-FROM 
-	(SELECT *, DATE_DIFF(ended_at,started_at,SECOND) AS Duration_Seconds FROM Bike_Divvy.Divvy_Current)
-WHERE 
-	Duration_Seconds >= 0
-); 
-		<p style ="color:gold;">Now this CTE table can be used as base for the rest of the query for the results found in the deck above</p>
-											</code></pre>
-											</section>
 
 				<!-- Three -->
+					<a id="About_Me"></a>
 					<section id="three" class="wrapper style3 special">
 						<div class="inner">
 							<header class="major">
@@ -198,6 +112,7 @@ WHERE
 					</section>
 
 				<!-- CTA -->
+					<a id="Connect"></a>
 					<section id="cta" class="wrapper style4">
 						<div class="inner">
 							<header>
