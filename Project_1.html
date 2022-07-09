@@ -27,7 +27,18 @@
 								<div id="menu">
 									<ul>
 										<li><a href="index.html">Home</a></li>
-										<li><a href="Project_1.html">Project 1: <br>Bike sharing analysis</a></li>
+										<li><a href="Project_1.html">Project 1: <br><b>Bike sharing analysis</b></a><br></li>
+											<sub>
+											<ol>
+												<a href="#Presentation">Presentation</a><br>
+												<a href="#Lifecycle">Data Analysis Lifecycle</a><br>
+												<a href="#ASK">1. ASK</a><br>
+												<a href="#PREPARE">2. PREPARE</a><br>
+												<a href="#PROCESS">3. PROCESS</a><br>
+												<a href="#ANALYZE">4. ANALYZE</a><br>
+												<a href="#SHARE">5. SHARE</a><br>
+												<a href="#ACT">6. ACT</a>
+											</ol></sub>
 										<li><a href="Project_2.html">Project 2: <br>A personal data journey</a></li>
 										<li><a href="#About_Me">About Me</a></li>
 										<li><a href="#Connect">Let's Connect!</a></li>
@@ -42,36 +53,45 @@
 					<article id="main">
 						<header>
 							<h2>Project 1: Bike sharing analysis</h2>
-							<p>Applying structural approach to practical experience</p>
+							<p>
+							Applying structural approach to practical experience<br>
+							2022.07.09
+							</p>
 						</header>
+						<a id="Presentation"></a>
 						<!--Background-->
 						<section class="wrapper stype5">
 							<div class="inner">
 								<h3>Background</h3>
-								<sub>I have 3 years of practical experience in the data space, analyzing, data wrangling, and reporting on sales data. At the end of the Google Data Analytics Professional Certificate, I was presented with the opportunity 
-									to apply the the structural approach, aka Data Analysis Lifecycle, from the course in addition to the practical experience I have, 
-									onto a real world, most notably an unfamiliar dataset that is collected from customers at Divvy, the bike sharing company. Please enjoy the presentation below!
+								<sub>While I have 3 years of practical experience in the analytical space, analyzing data, data wrangling, and providing critical reports to executives and management stakeholders. 
+									I felt the need to gain new perspectives, a refresher, to continutually improve in the data space. This is where I stumbled upon the Google Data Analytics Professional Certificate course, 
+									it was informative and holistic. It took me about 87 hours to go through the course. At the end of it I was presented with the opportunity 
+									to apply the the structural approach, aka Data Analysis Lifecycle, from the course in addition to the practical experience I have
+									onto a real world dataset from Divvy that I was unfamiliar with. Please enjoy the presentation below!
 								</sub>
 								<br><br/>
 								<div class="image" white-space:normal><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQC_hVW_SrAwtmqzw7Tll-eCXB1ZE9B-ajAmQzp80nSOIbE4Qo0MqXqjxbV-RvSpJMOvTUXPdOEq3Ao/embed?start=false&loop=false&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
-								<br><sub><i>I'd like to invite you to learn more about my thought process from dataset creation, data wrangling and the analytical mindset as I went through the topic.</i></sub>
+								<br><sub>I hope you enjoyed what you saw! If you'd like to learn more about the thought process behind the presentation please read below!</sub>
+								<a id="Lifecycle"></a>
 								<hr/>
+									
 									<h3>Data Analysis Lifecycle</h3>
-									<sub>What is Data Analysis Lifecycle? To put it simply, it is the process of going from data to decision. Data goes through several phases as it gets created, consumed, tested, processed, and reused. A life cycle model enables a structural process and drive toward success by covering both the front and end of the data analysis process.</sub>
+									<sub>The whole presentation revovles around the lifecycle called Data Analysis Lifecycle. To put it simply, it is the process of going from data to decision. Data goes through several phases as it gets created, consumed, tested, processed, and reused. A life cycle model enables a structural process and drive toward success by covering both the front and end of the data analysis process.</sub>
 									<br><br/>
 									Process steps
 									<ol>
-										<li>ASK</li>
-										<li>PREPARE</li>
-										<li>PROCESS</li>
-										<li>ANALYZE</li>
-										<li>SHARE</li>
-										<li>ACT</li>
+										<a href="#ASK">1. ASK</a><br>
+										<a href="#PREPARE">2. PREPARE</a><br>
+										<a href="#PROCESS">3. PROCESS</a><br>
+										<a href="#ANALYZE">4. ANALYZE</a><br>
+										<a href="#SHARE">5. SHARE</a><br>
+										<a href="#ACT">6. ACT</a>
 									</ol>
 								<p>Let's walk through each of the steps</p>
 							</div>
 						</section>
 						<!--ASK-->
+						<a id="ASK"></a>
 						<section class="wrapper stype5">
 							<div class="inner">
 								<span class="icon solid fa-question major style4"><span class="label"></span></span><p></p>
@@ -93,6 +113,7 @@
 								<br />
 						</section>
 						<!--PREPARE-->
+						<a id="PREPARE"></a>
 						<section class="wrapper stype5">
 							<div class="inner">
 								<span class="icon solid fa-folder-open major style4"><span class="label"></span></span><p></p>
@@ -249,6 +270,7 @@
 									<sub>It is important read on the licensing agreement on the source used and equally important to cite it, regardless of where it came from (unless contract tell you otherwise, eg NDA). Luckily, the public dataset provided is already scrubbed of any personally identifiable information so no additional steps needs to be taken around privacy or security concerns aside from citing it on the presentation <a href="https://ride.divvybikes.com/data-license-agreement">Data License Agreement</a></sub>
 						</section>
 						<!--PROCESS-->
+						<a id="PROCESS"></a>
 						<section class="wrapper stype5">
 							<div class="inner">
 								<span class="icon solid fa-list major style4"><span class="label"></span></span><p></p>
@@ -555,7 +577,7 @@ is equal to or greater than zero (0).</p>
 											<h4>DATA TRANSFORMATION</h4>
 											<sub>Now that we are done cleaning the data. It is time to transform data into more usable format for an analysis. Start and End time is where I will tackle the analysis - One of the most common way to approach time based attributes is aggregation by time, such as by day of week, time of day, months, year, etc.</sub>
 											<p></p>
-											<h5>Transformation #1 - Day of Week</h5>
+											<h5>Transformation - Day of Week</h5>
 											<sub>We are interested in which day of the week users are more (or less) likely to ride. We will use the start time (start_at) column and extract the day of week then label it as "mmm", for example Sunday would be 'Sun'. This will come in handy when we conduct analysis for insight enabling us to group the dataset by day of week.</sub>
 											<p></p>
 											<pre><code>
@@ -574,20 +596,10 @@ END AS day_of_week
 we are able to convert the start time(start_at) of a trip to day of week</p>
 											</code></pre>
 											<p></p>
-											<h5>Transformation #2 - Time of Day</h5>
-											<sub>In addition to day of week, we are also intereested in time of day, this allows to hone in if a specific group of users are using our service for work or for leisure by combining both day of week and time of day.</sub>
-											<p></p>
-											<pre><code>
---- snippet from part of the query
-EXTRACT(HOUR FROM started_at) as time_of_day
- FROM Bike_Divvy.Divvy_Current)
-
-<p style ="color:gold;">EXTRACT() function for just the HOUR from start time alias as time_of_day</p>
-											</code></pre>
 											<hr/>
 											<h4>Magic of CTE</h4>
 											<sub>
-												The final step of the data cleaning analysis is collapsing all the transformation onto one table and
+												The final step of the data cleaning analysis is collapsing all the transformations and filters onto one table and
 												output into a CTE (virtual table), in this case we will name it as <b style="color:green">Formatted_Divvy_Table</b> so it can be stringed with other necessary columns as well as 
 												referenced for multiple uses and analysis!
 											</sub><p></p>
@@ -596,10 +608,7 @@ WITH <b style="color:green">Formatted_Divvy_Table</b> AS(
 	SELECT 
 	 *,
 	 <a style="color:gold;">(1)</a> (DATE_DIFF(ended_at,started_at,SECOND))/60 AS Duration_Minutes,
-	 <a style="color:gold;">(2)</a> EXTRACT(MONTH FROM started_at) AS month,
-	 <a style="color:gold;">(3)</a> EXTRACT(YEAR FROM started_at) AS year,
-	 <a style="color:gold;">(4)</a> EXTRACT(DAYOFWEEK FROM started_at) AS day_num_of_week,
-	 <a style="color:gold;">(5)</a> CASE 
+	 <a style="color:gold;">(2)</a> CASE 
 		WHEN EXTRACT(DAYOFWEEK FROM started_at) = 1 THEN 'Sun'
 		WHEN EXTRACT(DAYOFWEEK FROM started_at) = 2 THEN 'Mon'
 		WHEN EXTRACT(DAYOFWEEK FROM started_at) = 3 THEN 'Tue'
@@ -608,9 +617,9 @@ WITH <b style="color:green">Formatted_Divvy_Table</b> AS(
 		WHEN EXTRACT(DAYOFWEEK FROM started_at) = 6 THEN 'Fri'
 		WHEN EXTRACT(DAYOFWEEK FROM started_at) = 7 THEN 'Sat'
 	END AS day_of_week,
-	<a style="color:gold;">(6)</a> EXTRACT(HOUR FROM started_at) as time_of_day
+	
 	FROM 
-	<a style="color:gold;">(7a)</a> (SELECT 
+	<a style="color:gold;">(3a)</a> (SELECT 
 	 	 ride_id,
 		 rideable_type,
 		 started_at,
@@ -619,16 +628,14 @@ WITH <b style="color:green">Formatted_Divvy_Table</b> AS(
 		 DATE_DIFF(ended_at,started_at,SECOND) AS Duration_Seconds 
 		FROM Bike_Divvy.Divvy_Current)
 	WHERE 
-	<a style="color:gold;">(7b)</a>Duration_Seconds >= 0
+	<a style="color:gold;">(3b)</a>Duration_Seconds >= 0
+	<a style="color:gold;">(4)</a>AND rideable_type NOT LIKE 'docked_bike'
 )
 	<p style="color:gold;">(1) Additional column for aggregation for duration in minutes
-(2) Additional column for aggregation for start time in months
-(3) Additional column for aggregation for start time in year
-(4) Additional column for aggregation for start time in week number
-(5) Data Transformation #1 - convert week number into "mmm", eg Sunday = 'Sun'
-(6) Additional column for aggregation for start time in time of day (hour)
-(7a) Kept the columns that's relevant to our analysis to keep it focused.
-(7b) Duration_Seconds is added as part of the subquery, then filtered for 0 or more seconds in Duration.
+(2) Data Transformation #1 - convert week number into "mmm", eg Sunday = 'Sun'
+(3a) Kept the columns that's relevant to our analysis to keep it focused.
+(3b) Duration_Seconds is added as part of the subquery, then filtered for 0 or more seconds in Duration.
+(4) Filtering out docked_bike from the dataset.
 
 Now this CTE table can be used as base for the rest of the query.
 											</code></pre>
@@ -652,51 +659,610 @@ LIMIT 2;
 															<th><sub>member_casual</sub></th>
 															<th><sub>Duration_Seconds</sub></th>
 															<th><sub>Duration_Minutes</sub></th>
-															<th><sub>month</sub></th>
-															<th><sub>year</sub></th>
-															<th><sub>day_num_of_week</sub></th>
 															<th><sub>day_of_week</sub></th>
-															<th><sub>time_of_day</sub></th>
+
 														</tr>
 													</thead>
 													<tbody>
 														<tr>
 															<td><sub>1</sub></td>
-															<td><sub>7A5606619893756C</sub></td>
+															<td><sub>2B9CA2B66B59A638</sub></td>
 															<td><sub>electric_bike</sub></td>
-															<td><sub>2021-10-30 09:07:17 UTC</sub></td>
-															<td><sub>2021-10-30 09:07:17 UTC</sub></td>
+															<td><sub>2021-11-18 19:03:12 UTC</sub></td>
+															<td><sub>2021-07-28 19:08:35 UTC</sub></td>
 															<td><sub>casual</sub></td>
 															<td><sub>0</sub></td>
 															<td><sub>0.0</sub></td>
-															<td><sub>10</sub></td>
-															<td><sub>2021</sub></td>
-															<td><sub>7</sub></td>
-															<td><sub>Sat</sub></td>
-															<td><sub>9</sub></td>
+															<td><sub>Thu</sub></td>
 														</tr>
 														<tr>
 															<td><sub>2</sub></td>
-															<td><sub>2377C8534A1D93D</sub></td>
+															<td><sub>87F2415F4289DB6</sub></td>
 															<td><sub>electric_bike</sub></td>
-															<td><sub>2021-07-28 18:01:27 UTC</sub></td>
-															<td><sub>2021-07-28 18:01:27 UTC</sub></td>
-															<td><sub>casual</sub></td>
+															<td><sub>2021-07-28 19:08:35 UTC</sub></td>
+															<td><sub>2021-07-28 19:08:35 UTC</sub></td>
+															<td><sub>member</sub></td>
 															<td><sub>0</sub></td>
 															<td><sub>0.0</sub></td>
-															<td><sub>7</sub></td>
-															<td><sub>2021</sub></td>
-															<td><sub>4</sub></td>
 															<td><sub>Wed</sub></td>
-															<td><sub>18</sub></td>
 														</tr>
 													</tbody>
 												</table>
 											</div>
-											
+							<sub>We can see all the fields are cleaned up and properly formatted. Now we are ready for an analysis.</sub>											
 						</section>
+						<!--ANALYZE-->
+						<a id="ANALYZE"></a>
+						<section class="wrapper stype5">
+							<div class="inner">
+								<span class="icon solid fa-search major style4"><span class="label"></span></span><p></p>
+								<h2>Step 4: ANALYZE</h2>
+									<sub>
+									<b>ANALYZE</b> in this step of the lifecycle is when you start putting together visualizations with the formatted dataset and identiy potential patterns, trends, etc. Goal is to explore the dataset while keeping the business question in mind, this can be done by grouping the dataset in various ways.
+									</sub><br/>
+								<p></p>	
+								<h4>Revisiting The business question</h4>
+									<sub><li>How do annual members and casual riders uses cyclistic bikes differently?</li></sub>
+									<sub><li>How can we increase conversion?</li></sub>
+									<br>
+									<sub>We will need to keep these questions in mind as we explore deeper into the dataset.</sub><br><br/>
+								<h4>Members vs Casual</h4>
+									<sub><li>First exploratory cut - Member vs Casual</li>
+									<li>Deeper cut - apply time element</li>
+									<li>Final step - identify consistent trend and tie it together</li></sub>
+									<hr>
+									<h5>First Exploratory Cut</h5>
+									<sub>First exploratory step is to aggregate data and compare them to identify high level trend. Let's look at a few cuts.</sub><br>
+										<sub><li>What percentage of users are members versus casual riders?</li></sub><br>
+										<pre><code>
+WITH <b style="color:green">Formatted_Divvy_Table</b> AS (...)
+SELECT (
+   COUNT(*)/(SELECT COUNT(*) FROM Formatted_Divvy_Table))*100 AS Percent_of_Member
+FROM Formatted_Divvy_Table 
+WHERE member_casual = 'member';
 
+<b>RESULT:</b>
+56.32222231132895
+<p style="color:gold;">Meaning Members account for <b style="color:gold;">56%</b> of total trips in the last 12 months.
+										</code></pre>
+										<hr>
+										<sub><li>How long do typical ride go for?</li></sub><br>
+										<pre><code>
+WITH <b style="color:green">Formatted_Divvy_Table</b> AS (...)
+SELECT
+  member_casual AS Membership,
+  AVG(Duration_Minutes) AS Avg_Duration_Minutes
+FROM Formatted_Divvy_Table
+GROUP BY member_casual;
+										</code></pre>
+										<h6>RESULTS</h6>
+										<div class="table-wrapper">
+											<table class="alt">
+												<thead>
+													<tr><sub>
+														<th><sub>Row</sub></th>
+														<th><sub>Membership</sub></th>
+														<th><sub>Avg_Duration_Minutes</sub></th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td><sub>1</sub></td>
+														<td><sub>member</sub></td>
+														<td><sub>13.044371999943747</sub></td>
+													</tr>
+													<tr>
+														<td><sub>2</sub></td>
+														<td><sub>casual</sub></td>
+														<td><sub>24.235496623280394</sub></td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										<sub>Casual riders appears to ride nearly double the duration in average, than members.</sub>
+										<hr>
+										<sub><li>What type of rides is most common?</li>
+										To answer this question, we will need to run two set of queries (one for member and another for casual) and utitlize UNION ALL to merge the results together onto one output.
+										</sub><br><br>
+										<pre><code>
+										
+WITH <b style="color:green">Formatted_Divvy_Table</b> AS (...)
+SELECT 
+  member_casual as Membership,
+  rideable_type as Ride_Type, 
+  COUNT(*) AS Num_of_Rides
+FROM Formatted_Divvy_Table
+WHERE member_casual = 'casual'
+GROUP BY member_casual, Ride_type
+
+<a style="color:gold">(1)</a> UNION ALL
+
+SELECT 
+  member_casual as Membership,
+  rideable_type as Ride_Type,
+  COUNT(*) AS Num_of_Rides
+FROM Formatted_Divvy_Table
+WHERE member_casual = 'member'
+GROUP BY member_casual, Ride_type
+
+<t style="color:gold;">(1) UNION ALL merges results from the first query with the second.</t>
+										</code></pre>
+										<h6>RESULTS</h6>
+										<div class="table-wrapper">
+											<table class="alt">
+												<thead>
+													<tr><sub>
+														<th><sub>Row</sub></th>
+														<th><sub>Membership</sub></th>
+														<th><sub>Ride_Type</sub></th>
+														<th><sub>Num_of_rides</sub></th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td><sub>1</sub></td>
+														<td><sub>casual</sub></td>
+														<td><sub>classic_bike</sub></td>
+														<td><sub>1236507</sub></td>
+													</tr>
+													<tr>
+														<td><sub>2</sub></td>
+														<td><sub>casual</sub></td>
+														<td><sub>electric_bike</sub></td>
+														<td><sub>1048847</sub></td>
+													</tr>
+													<tr>
+														<td><sub>3</sub></td>
+														<td><sub>member</sub></td>
+														<td><sub>classic_bike</sub></td>
+														<td><sub>1981150</sub></td>
+													</tr>
+													<tr>
+														<td><sub>4</sub></td>
+														<td><sub>casual</sub></td>
+														<td><sub>electric_bike</sub></td>
+														<td><sub>1319691</sub></td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										<sub>Quick math shows 54% casual riders vs 60% members prefer classic bike.</sub>
+										<hr>
+										<h6>Recap of First exploratory cut</h6>
+										<sub>From the comparison above, we can conclude in general on the following: 
+											<li>The number of trips taken by members is greater than casual</li>
+											<li>The duration of rides by casual is greater than members</li>
+											<li>Casual riders enjoy a higher percentage of electric bike than members</li>
+										</sub>
+										<hr>
+									<h5>Deeper cut - apply time element</h5>
+										<sub>Goal here is to apply time element to the results above and see if there are any trend or pattern as you may have foreseen based on how I applied day_of_week transformation from the PROCESS step.</sub><p></p>
+									<h6>Member vs Casual</h6>
+									<sub>What percentage of users are members versus casual rider by <b>day of week</b>?</sub>
+									<p></p>
+									<pre><code>
+WITH <b style="color:green">Formatted_Divvy_Table</b> AS (...)
+
+SELECT 
+ member_casual as Membership,
+ COUNT(*) AS Num_of_Rides,
+ day_of_week
+FROM Formatted_Divvy_Table
+WHERE member_casual = 'casual'
+GROUP BY member_casual, day_of_week
+
+UNION ALL
+
+SELECT 
+ member_casual as Membership,
+ COUNT(*) AS Num_of_Rides,
+ day_of_week
+FROM Formatted_Divvy_Table
+WHERE member_casual = 'member'
+GROUP BY member_casual, day_of_week
+
+<t style="color:gold;">The query above is combining the results of two queries into one output.</t>
+									</code></pre>
+									<p></p>
+											<h6>RESULTS</h6>
+											<div class="table-wrapper">
+												<table class="alt">
+													<thead>
+														<tr><sub>
+															<th><sub>Row</sub></th>
+															<th><sub>Member</sub></th>
+															<th><sub>Num_of_Rides</sub></th>
+															<th><sub>day_of_week</sub></th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td><sub>1</sub></td>
+															<td><sub>member</sub></td>
+															<td><sub>466109</sub></td>
+															<td><sub>Mon</sub></td>
+														</tr>
+														<tr>
+															<td><sub>2</sub></td>
+															<td><sub>member</sub></td>
+															<td><sub>512600</sub></td>
+															<td><sub>Wed</sub></td>
+														</tr>
+														<tr>
+															<td><sub>3</sub></td>
+															<td><sub>member</sub></td>
+															<td><sub>524804</sub></td>
+															<td><sub>Tue</sub></td>
+														</tr>
+														<tr>
+															<td><sub>4</sub></td>
+															<td><sub>member</sub></td>
+															<td><sub>459798</sub></td>
+															<td><sub>Fri</sub></td>
+														</tr>
+														<tr>
+															<td><sub>5</sub></td>
+															<td><sub>member</sub></td>
+															<td><sub>501807</sub></td>
+															<td><sub>Thu</sub></td>
+														</tr>
+														<tr>
+															<td><sub>6</sub></td>
+															<td><sub>member</sub></td>
+															<td><sub>441037</sub></td>
+															<td><sub>Sat</sub></td>
+														</tr>
+														<tr>
+															<td><sub>7</sub></td>
+															<td><sub>member</sub></td>
+															<td><sub>394686</sub></td>
+															<td><sub>Sun</sub></td>
+														</tr>
+														<tr>
+															<td><sub>8</sub></td>
+															<td><sub>casual</sub></td>
+															<td><sub>260599</sub></td>
+															<td><sub>Tue</sub></td>
+														</tr>
+														<tr>
+															<td><sub>9</sub></td>
+															<td><sub>casual</sub></td>
+															<td><sub>323156</sub></td>
+															<td><sub>Fri</sub></td>
+														</tr>
+														<tr>
+															<td><sub>10</sub></td>
+															<td><sub>casual</sub></td>
+															<td><sub>269310</sub></td>
+															<td><sub>Mon</sub></td>
+														</tr>
+														<tr>
+															<td><sub>11</sub></td>
+															<td><sub>casual</sub></td>
+															<td><sub>410771</sub></td>
+															<td><sub>Sun</sub></td>
+														</tr>
+														<tr>
+															<td><sub>12</sub></td>
+															<td><sub>casual</sub></td>
+															<td><sub>260738</sub></td>
+															<td><sub>Wed</sub></td>
+														</tr>
+														<tr>
+															<td><sub>13</sub></td>
+															<td><sub>casual</sub></td>
+															<td><sub>479236</sub></td>
+															<td><sub>Sat</sub></td>
+														</tr>
+														<tr>
+															<td><sub>14</sub></td>
+															<td><sub>casual</sub></td>
+															<td><sub>281544</sub></td>
+															<td><sub>Thu</sub></td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+								<sub>When we plot this onto a stacked % bar chart, we'd get the visual below: </sub>
+								<p></p>
+								<div class="image"><img src="images/Chart1.png" alt="" /></div>
+								<br><sub>Showing Members activity is higher during the weekday and Casual on the weekends.</sub>
+								<hr>
+								<h6>Duration</h6>
+								<sub>How long do typical ride go for by <b>day of week</b>?</sub>
+								<p></p>
+									<pre><code>
+WITH <b style="color:green">Formatted_Divvy_Table</b> AS (...)
+
+SELECT
+  member_casual AS Membership,
+  ROUND(AVG(Duration_Minutes),2) as Avg_Duration_Minutes,
+  day_of_week
+FROM Formatted_Divvy_Table
+GROUP BY day_of_week, member_casual;
+
+<t style="color:gold;">AVG() is used to calculate the average duration of rides by minutes, grouped by member_casual</t>
+									</code></pre>
+									<p></p>
+									<h6>RESULTS</h6>
+											<div class="table-wrapper">
+												<table class="alt">
+													<thead>
+														<tr><sub>
+															<th><sub>Row</sub></th>
+															<th><sub>Membership</sub></th>
+															<th><sub>Avg_Duration_Minutes</sub></th>
+															<th><sub>day_of_week</sub></th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td><sub>1</sub></td>
+															<td><sub>member</sub></td>
+															<td><sub>12.65</sub></td>
+															<td><sub>Mon</sub></td>
+														</tr>
+														<tr>
+															<td><sub>2</sub></td>
+															<td><sub>member</sub></td>
+															<td><sub>12.31</sub></td>
+															<td><sub>Wed</sub></td>
+														</tr>
+														<tr>
+															<td><sub>3</sub></td>
+															<td><sub>member</sub></td>
+															<td><sub>12.28</sub></td>
+															<td><sub>Tue</sub></td>
+														</tr>
+														<tr>
+															<td><sub>4</sub></td>
+															<td><sub>member</sub></td>
+															<td><sub>12.78</sub></td>
+															<td><sub>Fri</sub></td>
+														</tr>
+														<tr>
+															<td><sub>5</sub></td>
+															<td><sub>member</sub></td>
+															<td><sub>12.44</sub></td>
+															<td><sub>Thu</sub></td>
+														</tr>
+														<tr>
+															<td><sub>6</sub></td>
+															<td><sub>member</sub></td>
+															<td><sub>14.62</sub></td>
+															<td><sub>Sat</sub></td>
+														</tr>
+														<tr>
+															<td><sub>7</sub></td>
+															<td><sub>member</sub></td>
+															<td><sub>27.67</sub></td>
+															<td><sub>Sun</sub></td>
+														</tr>
+														<tr>
+															<td><sub>8</sub></td>
+															<td><sub>casual</sub></td>
+															<td><sub>26.56</sub></td>
+															<td><sub>Sat</sub></td>
+														</tr>
+														<tr>
+															<td><sub>9</sub></td>
+															<td><sub>casual</sub></td>
+															<td><sub>22.87</sub></td>
+															<td><sub>Fri</sub></td>
+														</tr>
+														<tr>
+															<td><sub>10</sub></td>
+															<td><sub>casual</sub></td>
+															<td><sub>14.79</sub></td>
+															<td><sub>Sun</sub></td>
+														</tr>
+														<tr>
+															<td><sub>11</sub></td>
+															<td><sub>casual</sub></td>
+															<td><sub>24.38</sub></td>
+															<td><sub>Mon</sub></td>
+														</tr>
+														<tr>
+															<td><sub>12</sub></td>
+															<td><sub>casual</sub></td>
+															<td><sub>21.59</sub></td>
+															<td><sub>Tue</sub></td>
+														</tr>
+														<tr>
+															<td><sub>13</sub></td>
+															<td><sub>casual</sub></td>
+															<td><sub>21.84</sub></td>
+															<td><sub>Thu</sub></td>
+														</tr>
+														<tr>
+															<td><sub>14</sub></td>
+															<td><sub>casual</sub></td>
+															<td><sub>21.32</sub></td>
+															<td><sub>Wed</sub></td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+						<sub>This is the visual we'd get when we plot the output onto a barchart where we compare Member vs Casual</sub>
+						<p></p>
+						<div class="image"><img src="images/Chart2.png" alt="" /></div><br>
+						<sub>The visualization above shows Casual riders ride an average of 10 minutes longer than Members.</sub>
+						<hr>
+						<h6>Rides</h6>
+								<sub>What type of ride is the most common <b>day of week</b>?</sub>
+								<p></p>
+									<pre><code>
+WITH <b style="color:green">Formatted_Divvy_Table</b> AS (...)
+
+SELECT 
+  member_casual as Membership,
+  rideable_type,
+  (COUNT(*)/(SELECT COUNT(*) FROM Formatted_Divvy_Table WHERE member_casual = 'casual')*100 as Percentage__Ride_Type
+FROM Formatted_Divvy_Table
+WHERE member_casual = 'casual'
+GROUP BY member_casual, rideable_type
+
+UNION ALL
+
+SELECT 
+  member_casual as Membership,
+  rideable_type,
+  (COUNT(*)/(SELECT COUNT(*) FROM Formatted_Divvy_Table WHERE member_casual = 'member')*100 as Percentage_Ride_Type
+FROM Formatted_Divvy_Table
+WHERE member_casual = 'member'
+GROUP BY member_casual, rideable_type
+
+<t style="color:gold;">Again, we are using UNION ALL to merge the two queries results into one.</t>
+									</code></pre>
+									<p></p>
+									<h6>RESULTS</h6>
+											<div class="table-wrapper">
+												<table class="alt">
+													<thead>
+														<tr><sub>
+															<th><sub>Row</sub></th>
+															<th><sub>Membership</sub></th>
+															<th><sub>rideable_type</sub></th>
+															<th><sub>Percentage_Ride_Type</sub></th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td><sub>1</sub></td>
+															<td><sub>casual</sub></td>
+															<td><sub>classic_bike</sub></td>
+															<td><sub>54.105709662485545</sub></td>
+														</tr>
+														<tr>
+															<td><sub>2</sub></td>
+															<td><sub>casual</sub></td>
+															<td><sub>electric_bike</sub></td>
+															<td><sub>45.894290337514448</sub></td>
+														</tr>
+														<tr>
+															<td><sub>3</sub></td>
+															<td><sub>member</sub></td>
+															<td><sub>classic_bike</sub></td>
+															<td><sub>60.019552592808921</sub></td>
+														</tr>
+														<tr>
+															<td><sub>4</sub></td>
+															<td><sub>member</sub></td>
+															<td><sub>electric_bike</sub></td>
+															<td><sub>39.980447407191079</sub></td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+						<sub>This time around we will plot the chart by ride type, compare Member vs Casual</sub>
+						<p></p>
+						<div class="image"><img src="images/Chart3.png" alt="" /></div>
+						<br>
+						<sub>The visualization above shows 2 points <br>
+							<li>Both Members and Casual riders prefer classic bike more than electric bike</li>
+							<li>Looking at just electric bikes, Casual riders enjoy electric bike more than Members do by 5%</li>
+						</sub>
+						<hr>
+						<h4>Summary of the analysis</h4>
+							<sub>Let's provide a headline summary for the executives, but first, we need to revisit the business question one more time to ensure we stay on track - <br>
+								<br><p>"How do annual members and casual riders uses cyclistic bikes differently?"</p>
+								I approached this question by breaking down the insights we've gotten from the analysis into 3 aspects to show the differences:
+							</sub>
+						<sub>
+							<li><t style="color:rgb(253, 171, 18)">Time</t> - Casual riders rides on weekend more than members</li>
+							<li><t style="color:rgb(0, 164, 0)">Duration</t> - Casual riders ride longer than members in general</li>
+							<li><t style="color:rgb(211, 4, 211)">Rides</t> - Casual riders enjoy electric bikes more than members</li>
+						</sub>
+						<p></p>
+						<sub>The following question is:<br>
+							<br>
+							<p>"How can we increase conversion?"</p>
+							This is where we can use the specifics from the anaylsis and enable us to make recommendations on the HOW:
+							<li><t style="color:rgb(253, 171, 18)">Time</t> - Members enjoy the perk of ride gamification, daily consecutive rides will generate credit, and said discount can be applied toward E-Bike, or even next ride. Casual riders who typically ride on weekends be incentivized to replace their current transportation with Cyclistics.</li><br>
+							<li><t style="color:rgb(0, 164, 0)">Duration</t> - Given Casual riders ride for much longer than members, with membership they will also enjoy a discounted rate depending on trip length.</li><br>
+							<li><t style="color:rgb(211, 4, 211)">Rides</t> - Electric bikes are likely pricier than classic counterpart, discounted rate for using electric bikes as part of try outs as part of new membership.</li>
+						</sub>
+						</section>
+						<!--SHARE-->
+						<a id="SHARE"></a>
+						<section class="wrapper stype5">
+							<div class="inner">
+								<span class="icon solid fa-share major style4"><span class="label"></span></span><p></p>
+								<h2>Step 5: SHARE</h2>
+								<h4>Supportive visualizations and key findings</h4>
+									<sub>
+									<b>SHARE</b> is where you package your findings into visualization to display important insights and draw conclusion. There are 3 visual elements I believe makes an effective visuziation that can deliver that.</sub><p></p>
+								<h5>Visual Elements</h5>	
+									<sub>
+									<li>Color and contrast</li>
+									<li>Transition slides</li>
+									<li>Presentation approach</li>
+									</sub>
+									<p></p>
+								<h6>Color and contrast</h6>	
+									<sub>
+									One of the key theme I believe makes an effective visualizations is using color to highlight the keywords. Such as 'members', 'casual', etc. </li>
+									<br/>Example below:
+									<p></p>
+									<div class="image"><img src="images/Chart4.png" alt="" /></div>
+									</sub>
+									<p></p>
+								<h6>Transitiion slides</h6>	
+									<sub>Creating a slide separator, aka Transitiion Slide, make yourself the focus point and ensure the audience are listening because they'd have nothing else to look at for the time being and let the audience know:
+										<li>What are we talking about</li>
+										<li>What are the slides driving towards</li>
+									</sub>
+									<p></p>
+									<div class="image"><img src="images/Chart5.png" alt="" /></div>
+									<br>
+									<sub>This slide provide a transition from the Objective slide where we discussed what is upcoming onto the 'let's dive into it' of the three aspects of differences between Member and Casual.</sub>
+									<p></p>	
+								<h6>Presentation approach</h6>
+									<sub>
+										<li>Introduce the graphics and title of chart first<br>
+										Let the audience soak in the chart for 5 seconds before the next step</li><br>
+										<li>Answer obvious questions before they are asked<br>Start with high level and slowly go down to lowest level of detail that is useful to your audience</li><br>
+										<li>State the insight of your graphic<br>
+										One important practice here is do not provide your audience a wall of text to read but pace the reveal with what you're saying. Slides/Powerpoint animation really comes into play here.</li><br>
+									</sub>
+										<p></p>
+									<div class="image"><img src="images/Chart6.gif" alt="" /></div>
+						</section>
+						<!--ACT & Closing-->
+						<a id="ACT"></a>
+						<section class="wrapper stype5">
+							<div class="inner">
+								<span class="icon solid fa-running major style4"><span class="label"></span></span><p></p>
+								<h2>Step 6: ACT</h2>
+								<h4>High level insight and make it actionable</h4>
+									<sub>
+									<b>ACT</b> is is the final step it is all about how.</sub><p></p>
+								<h5>Actionables</h5>	
+									<sub>
+									<li>Share the <a href="#Presentation">presentation</a> with Executives and Director of Marketing to receive an approval</li>
+									<li>Connect with marketing team on the specifics of the findings and determine the best way to executive the recommendation</li>
+									<li>Identify additional deliverables that may be helpful to include for further exploration</li>
+									</sub>
+									<p></p>
+									<p>This is the end of the 6 steps I've taken to put together the presentation!</p>
+									<hr>
+									<h5>A word on Google Data Analytics Professional Certificate </h5>
+									<sub>
+									This is my first time taking up an online course and the diversity of perspectives in the space is breathtaking. For most part, it was an affirmation that the 3 years I've spent in the data field was <i>actually</i> tangible and was not a fluke or niche only to my current employer. But I needed guidance on making it into a transferrable skillset. This is where the other part comes in, a few important nuggets from the program really made my process more structured and complete. I've already demonstrated this a few times at work! Lastly, and where I feel I gained the most from this course is the sheer amount of resources provided to explore deeper into each aspect of being a Data Analysis would entail so I can continue to heighten my data sense as I continue strive to learn more about the space.</sub><p></p>
+						</section>		
 <!---End of Main Section-->
+					</section>
+					<section id="cta" class="wrapper style4">
+						<div class="inner">
+							<header>
+								<h2>If you made it this far, you're amazing</h2>
+								<p>I'd love to hear more from you.</p>
+							</header>
+							<ul class="actions stacked">
+								<li><a href="mailto:chinpangwong91@gmail.com" class="button fit primary">LET'S CONNECT!</a></li>
+								<li><a href="https://www.linkedin.com/in/justincpwong/" class="button fit">LINKEDIN</a></li>
+							</ul>
+						</div>
 					</section>
 					</article>
 
